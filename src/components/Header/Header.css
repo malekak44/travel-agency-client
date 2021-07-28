@@ -1,0 +1,29 @@
+.header {
+    background-color: #FFF9EF;
+    height: 500px;
+}
+
+.header h2 {
+    font-size: 2.5rem;
+    color: #262339;
+    text-shadow: 0 0 1px;
+}
+
+.left-banner {
+    margin-top: 6% !important;
+}
+
+.brand-btn {
+    background-color: #88B337 !important;
+    color: white !important;
+    border: 1px solid #88B337 !important;
+    transition: all 1s;
+}
+
+.brand-btn:hover {
+    background-color: #5d880c !important;
+}
+
+.brand-btn:focus {
+    box-shadow: 0 0 0 0.25rem #88b3376b !important;
+}
