@@ -1,0 +1,9 @@
+.about-container {
+    padding: 4% 0;
+    background-color: #FDFDFD;
+    background: linear-gradient(rgba(245, 245, 245, 0.2) 100%, rgba(245, 245, 245, 0.2) 100%),
+        url('../../images/map.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

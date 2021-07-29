@@ -1,12 +1,18 @@
 .packages-container {
-    margin-top: 5%;
+    margin: 4% auto;
 }
 
-.packages-container h5 {
+.packages-container h5,
+.services-container h5,
+.about-container h5,
+.reviews-container h5 {
     color: #88B337;
 }
 
-.packages-container h2 {
+.packages-container h2,
+.services-container h2,
+.about-container h2,
+.reviews-container h2 {
     color: #262339;
     text-align: center;
     font-weight: 600;

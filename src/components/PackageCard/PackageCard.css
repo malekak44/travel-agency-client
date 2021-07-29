@@ -1,0 +1,44 @@
+.packageCard {
+    height: 350px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-shadow: 0 0 1px;
+    overflow: hidden;
+}
+
+.packageCard img {
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 15px;
+    transform: scale(1);
+    transition: all 0.3s;
+}
+
+.packageCard img:hover {
+    transform: scale(1.1);
+}
+
+.packageCard .price {
+    font-size: 1.3rem;
+    color: #262339;
+}
+
+.packageCard p {
+    font-weight: 600;
+    display: inline;
+    margin-left: 16px;
+}
+
+.packageCard p img {
+    width: 16px;
+    margin-top: 9px;
+}
+
+.packageCard h5 {
+    color: #262339 !important;
+}
+
+.packageCard h5 img {
+    width: 22px;
+    margin-top: 8px;
+    margin-right: 3px;
+}
