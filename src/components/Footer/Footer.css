@@ -1,0 +1,132 @@
+.footer-area {
+    padding-top: 4%;
+    background: #262339;
+}
+
+.footer-area ul {
+    padding-left: 0rem !important;
+}
+
+.footer-area .footer-links h5 {
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 43px;
+    color: #FFF;
+    margin-bottom: 25px;
+}
+
+.footer-area .footer-links .contact-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 25px;
+}
+
+.footer-area .footer-links .contact-box:first-child {
+    margin-top: 0;
+}
+
+.footer-area .footer-links .contact-box span {
+    float: left;
+    width: 34px;
+}
+
+.footer-area .footer-links .contact-box span img {
+    width: 25px;
+    margin-top: 12px;
+}
+
+.footer-area .footer-links .contact-box span .phone {
+    width: 19px;
+    margin-top: 14px;
+    margin-left: 6px;
+}
+
+.footer-area .footer-links .contact-box p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 22px;
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0 !important;
+}
+
+.footer-area .footer-links .category-list ul li {
+    list-style-type: none;
+}
+
+.footer-area .footer-links .category-list ul li p {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.footer-area .footer-links .payment-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.footer-area .footer-links .payment-cards img {
+    width: 65px;
+    height: puto;
+    margin-right: 13px;
+    margin-bottom: 15px;
+}
+
+.footer-area .footer-info p {
+    color: #fff;
+    margin: 35px 0 20px 0;
+}
+
+.footer-area .footer-social-icons h5 {
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+.footer-area .footer-social-icons ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -10%;
+}
+
+.footer-area .footer-social-icons ul li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.footer-area .footer-social-icons ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-area .footer-social-icons ul li img {
+    width: 20px;
+}
+
+.footer-area .copyrigth-area {
+    border-top: 2px solid #423F54;
+    margin-top: 50px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-area .copyrigth-area p {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
