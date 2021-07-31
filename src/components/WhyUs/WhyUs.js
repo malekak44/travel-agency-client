@@ -1,5 +1,5 @@
 import React from 'react';
-import './AboutUs.css';
+import './WhyUs.css';
 import guide from '../../images/guide.svg';
 import trust from '../../images/trust.svg';
 import experience from '../../images/experience.svg';
@@ -26,7 +26,7 @@ const aboutData = [
     }
 ]
 
-const AboutUs = () => {
+const WhyUs = () => {
     return (
         <div className="about-container my-5">
             <h5 className="text-center">Why Travel Agency</h5>
@@ -41,4 +41,4 @@ const AboutUs = () => {
     );
 };
 
-export default AboutUs;
+export default WhyUs;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import footerLogo from '../../images/footerLogo.svg';
+import logo from '../../images/logo.svg';
 import facebook from '../../images/facebook.svg';
 import instagram from '../../images/instagram.svg';
 import twitter from '../../images/twitter.svg';
@@ -22,7 +22,7 @@ const Footer = () => {
                     <div className="col-lg-4 col-md-12">
                         <div className="footer-info">
                             <div className="footer-logo navbar-brand">
-                                <img src={footerLogo} alt="logo" />
+                                <img src={logo} alt="logo" />
                                 <span className="brand-name">Travel Agency</span>
                             </div>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid maxime aut ut voluptate

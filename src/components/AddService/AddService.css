@@ -1,0 +1,71 @@
+.addservice-section .addservice-form {
+    width: 85%;
+    background: white;
+    margin: 40px auto;
+    padding: 3% 5%;
+    border-radius: 10px;
+}
+
+.addservice-section .col {
+    margin-bottom: 30px;
+}
+
+.addservice-section label {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.addservice-section input:focus,
+.addservice-section textarea:focus {
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #5D880C;
+}
+
+#uploadBtn {
+    display: block;
+    width: 48%;
+    padding: .375rem 0rem .375rem 2.5rem;
+    border-radius: .25rem;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+    position: relative;
+    background: transparent;
+    border: 1px solid #5D880C;
+    color: #5D880C;
+    background-image: url('../../images/cloud-upload.svg');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 10px 8px;
+    background-color: #5d880c2f;
+}
+
+input[type="file"] {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#saveBtn {
+    width: 10% !important;
+    background-color: #5D880C !important;
+    color: white !important;
+    position: relative;
+    float: right;
+    margin-right: 8% !important;
+    margin-top: -1%;
+    padding: 6px 0px;
+    border-radius: 5px;
+    transition: all 0.3s !important;
+}
+
+.error {
+    color: #BB2D3B;
+    font-size: 14px;
+    margin-left: 6px;
+}

@@ -1,0 +1,37 @@
+.vertical-nav {
+    background-color: #5d880c;
+    min-width: 18rem;
+    width: 18rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.link {
+    width: 175px;
+    margin: 10px auto;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.link img {
+    width: 26px;
+    margin-top: -5px;
+}
+
+.manage img {
+    width: 18px !important;
+}
+
+.add img {
+    width: 21px !important;
+}
+
+.link span {
+    color: white !important;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
