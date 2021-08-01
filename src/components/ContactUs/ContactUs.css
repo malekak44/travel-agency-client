@@ -1,0 +1,192 @@
+.contact-card {
+    margin-top: 30px;
+    padding: 25px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 0px 64px rgba(17, 17, 17, 0.1);
+    box-shadow: 0px 0px 64px rgba(17, 17, 17, 0.1);
+    border-radius: 10px;
+    height: 180px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-card:hover::after {
+    background: #5d880c;
+}
+
+.contact-card::after {
+    position: absolute;
+    content: "";
+    top: -65px;
+    left: -11%;
+    display: block;
+    width: 126px;
+    height: 180px;
+    background: #88B337;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    z-index: 1;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.contact-card .contact-icon {
+    min-width: 100px;
+    position: relative;
+    z-index: 10;
+}
+
+.contact-card .contact-icon img {
+    width: 55px;
+}
+
+.contact-card .contact-info {
+    padding: 12px 0;
+}
+
+.contact-card .contact-info h5 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #262339;
+    margin-bottom: 10px;
+}
+
+.contact-card .contact-info p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #A5A5A5;
+}
+
+.contact-card .contact-info ul.contact-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding-left: 0 !important;
+}
+
+.contact-card .contact-info ul.contact-icons li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.contact-card .contact-info ul.contact-icons li:last-child {
+    margin-right: 0;
+}
+
+.contact-card .contact-info ul.contact-icons li img {
+    width: 28px;
+}
+
+.contact-inputs .contact-details h5.contact-d-head {
+    font-weight: 700;
+    font-size: 25px;
+    color: #262339;
+    margin-bottom: 28px;
+    margin-top: 3px;
+}
+
+.contact-details p{
+    font-weight: 500;
+}
+
+.contact-inputs .contact-details ul.office-clock {
+    margin-top: 40px;
+}
+
+.contact-inputs .contact-details ul.office-clock li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.contact-inputs .contact-details ul.office-clock li .clock-icon img {
+    width: 45px;
+    margin-right: 20px;
+}
+
+.contact-inputs .contact-details ul.office-clock li .clock-info h5 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #88B337;
+    line-height: 38px;
+}
+
+.contact-inputs .contact-details ul.office-clock li .clock-info p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.contact-inputs .contact-form h5.contact-d-head {
+    font-weight: 700;
+    font-size: 25px;
+    color: #262339;
+    margin-bottom: 30px;
+}
+
+.contact-inputs .contact-form input,
+.contact-inputs .contact-form textarea {
+    margin-bottom: 22px;
+    border: 1px solid #E1E1E1;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #A5A5A5;
+    padding: 12px;
+}
+
+.contact-inputs .contact-form input:focus,
+.contact-inputs .contact-form textarea:focus {
+    outline: none;
+    border: 1px solid #88B337;
+}
+
+.contact-inputs .contact-form input::-webkit-input-placeholder,
+.contact-inputs .contact-form textarea::-webkit-input-placeholder {
+    color: #A5A5A5;
+    text-transform: capitalize;
+}
+
+.contact-inputs .contact-form input:-ms-input-placeholder,
+.contact-inputs .contact-form textarea:-ms-input-placeholder {
+    color: #A5A5A5;
+    text-transform: capitalize;
+}
+
+.contact-inputs .contact-form input::-ms-input-placeholder,
+.contact-inputs .contact-form textarea::-ms-input-placeholder {
+    color: #A5A5A5;
+    text-transform: capitalize;
+}
+
+.contact-inputs .contact-form input::placeholder,
+.contact-inputs .contact-form textarea::placeholder {
+    color: #A5A5A5;
+    text-transform: capitalize;
+}
+
+.contact-inputs .contact-form input[type=submit] {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    color: #FFFFFF;
+    background: #88B337;
+    padding: 9px 22px;
+    text-transform: capitalize;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin-bottom: 0;
+}
+
+.contact-inputs .contact-form input[type=submit]:hover {
+    background: #5d880c;
+}

@@ -7,6 +7,11 @@ import Reviews from '../components/Reviews/Reviews';
 import Footer from '../components/Footer/Footer';
 
 const Home = () => {
+    const url = window.location.href;
+    if (!url.includes('login')) {
+        document.body.style.backgroundImage = 'none';
+        document.body.style.backgroundColor = "transparent";
+    }
     return (
         <div>
             <Header />

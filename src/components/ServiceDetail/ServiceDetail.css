@@ -4,7 +4,6 @@
     text-shadow: 0 0 1px;
     padding: 10px;
     transition: all 0.5s;
-    width: 90%;
 }
 
 .service-card:hover {

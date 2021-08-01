@@ -7,7 +7,7 @@ import Admin from "./pages/Admin";
 import Contact from "./pages/Contact";
 import Destinations from "./pages/Destinations";
 import Home from './pages/Home';
-import Login from "./pages/Login";
+import LoginPage from "./pages/LoginPage";
 
 const App = () => {
   return (
@@ -29,7 +29,7 @@ const App = () => {
           <Contact />
         </Route>
         <Route path="/login">
-          <Login />
+          <LoginPage />
         </Route>
       </Switch>
     </Router>

@@ -9,13 +9,15 @@ const Orders = () => {
             </div>
             <div className="orders-table">
                 <table className="table">
-                    <tr>
-                        <th>Name</th>
-                        <th>Email ID</th>
-                        <th>Service</th>
-                        <th>Pay With</th>
-                        <th>Status</th>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email ID</th>
+                            <th>Service</th>
+                            <th>Pay With</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
                     <tbody>
                         <tr>
                             <td>Sufi Ahmed</td>
