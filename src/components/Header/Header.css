@@ -9,7 +9,7 @@
     text-shadow: 0 0 1px;
 }
 
-.left-banner {
+.left-side {
     margin-top: 6% !important;
 }
 
@@ -17,7 +17,7 @@
     background-color: #88B337 !important;
     color: white !important;
     border: 1px solid #88B337 !important;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .brand-btn:hover {

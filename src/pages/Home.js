@@ -3,14 +3,14 @@ import Header from '../components/Header/Header';
 import Packages from '../components/Packages/Packages';
 import Services from '../components/Services/Services';
 import WhyUs from '../components/WhyUs/WhyUs';
-import Reviews from '../components/Reviews/Reviews';
+import Testimonials from '../components/Testimonials/Testimonials';
 import Footer from '../components/Footer/Footer';
 
 const Home = () => {
     const url = window.location.href;
-    if (!url.includes('login')) {
+    if (!url.includes('login') || !url.includes('dashboard')) {
         document.body.style.backgroundImage = 'none';
-        document.body.style.backgroundColor = "transparent";
+        document.body.style.backgroundColor = "white";
     }
     return (
         <div>
@@ -18,7 +18,7 @@ const Home = () => {
             <Packages />
             <Services />
             <WhyUs />
-            <Reviews />
+            <Testimonials />
             <Footer />
         </div>
     );

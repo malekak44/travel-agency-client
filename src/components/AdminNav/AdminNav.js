@@ -1,5 +1,5 @@
 import React from 'react';
-import './VerticalNav.css';
+import './AdminNav.css';
 import logo from '../../images/logo.svg';
 import grid from '../../images/grid.svg';
 import add from '../../images/add.svg';
@@ -33,28 +33,28 @@ const VerticalNav = () => {
 
             <ul className="nav flex-column mb-0" id="verNav">
                 <li className="nav-item active">
-                    <Link to="/admin/manage" style={{ textDecoration: "none" }}>
+                    <Link to="/dashboard/manage" style={{ textDecoration: "none" }}>
                         <p className="link manage">
                             <img src={grid} alt="manage" /> <span>Manage Services</span>
                         </p>
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/admin/add" style={{ textDecoration: "none" }}>
+                    <Link to="/dashboard/add" style={{ textDecoration: "none" }}>
                         <p className="link add">
                             <img src={add} alt="add" /> <span>Add Service</span>
                         </p>
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/admin/orders" style={{ textDecoration: "none" }}>
+                    <Link to="/dashboard/orders" style={{ textDecoration: "none" }}>
                         <p className="link">
                             <img src={order} alt="order" /> <span>Order List</span>
                         </p>
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/admin/make" style={{ textDecoration: "none" }}>
+                    <Link to="/dashboard/make" style={{ textDecoration: "none" }}>
                         <p className="link">
                             <img src={addUser} alt="admin" /> <span>Make Admin</span>
                         </p>

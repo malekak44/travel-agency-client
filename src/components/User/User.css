@@ -1,0 +1,28 @@
+.book-form,
+.review-form {
+    width: 50%;
+    margin: 4%;
+    font-weight: 500;
+}
+
+.book-form input,
+.review-form input,
+.review-form textarea {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
+
+.book-form input:focus,
+.review-form input:focus,
+.review-form textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #88B337;
+}
+
+#reviewBtn {
+    padding: 6px 15px;
+    border-radius: 5px;
+    float: right;
+}

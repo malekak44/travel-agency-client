@@ -30,8 +30,8 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/admin" style={{ textDecoration: "none" }}>
-                                <p className="nav-link">Admin</p>
+                            <Link to="/dashboard" style={{ textDecoration: "none" }}>
+                                <p className="nav-link">Dashboard</p>
                             </Link>
                         </li>
                         <li className="nav-item">

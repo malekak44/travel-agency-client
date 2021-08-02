@@ -3,8 +3,8 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Admin from "./pages/Admin";
 import Contact from "./pages/Contact";
+import Dashboard from "./pages/Dashboard";
 import Destinations from "./pages/Destinations";
 import Home from './pages/Home';
 import LoginPage from "./pages/LoginPage";
@@ -19,11 +19,11 @@ const App = () => {
         <Route path="/destinations">
           <Destinations />
         </Route>
-        <Route exact path="/admin">
-          <Admin />
+        <Route exact path="/dashboard">
+          <Dashboard />
         </Route>
-        <Route path="/admin/:action">
-          <Admin />
+        <Route path="/dashboard/:action">
+          <Dashboard />
         </Route>
         <Route path="/contact">
           <Contact />

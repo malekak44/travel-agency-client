@@ -1,10 +1,10 @@
 import React from 'react';
-import './Reviews.css';
+import './Testimonials.css';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dina from '../../images/dina.png';
-import ReviewCard from '../ReviewCard/ReviewCard';
+import TestimonialCard from '../TestimonialCard/TestimonialCard';
 
 const reviewsData = [
     {
@@ -56,16 +56,16 @@ const reviewsData = [
 
 ]
 
-const Reviews = () => {
+const Testimonials = () => {
     return (
         <div className="reviews-container">
-            <h5 className="text-center">Our Traveller Say</h5>
+            <h5 className="text-center">Testimonials</h5>
             <h2>What Our Traveller Say</h2>
             <h2>About Us</h2>
             <div className="container mt-5">
                 <OwlCarousel className='owl-theme' loop margin={10} nav>
                     {
-                        reviewsData.map(review => <ReviewCard key={review.id} data={review}></ReviewCard>)
+                        reviewsData.map(review => <TestimonialCard key={review.id} data={review}></TestimonialCard>)
                     }
                 </OwlCarousel>
             </div>
@@ -73,4 +73,4 @@ const Reviews = () => {
     );
 };
 
-export default Reviews;
+export default Testimonials;

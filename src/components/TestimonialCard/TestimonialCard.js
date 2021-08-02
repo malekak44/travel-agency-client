@@ -1,5 +1,5 @@
 import React from 'react';
-import './ReviewCard.css';
+import './TestimonialCard.css';
 import quote from '../../images/quote.svg';
 
 const ReviewCard = ({ data }) => {

@@ -1,11 +1,11 @@
 import React from 'react';
 import './Admin.css';
 import { useParams } from 'react-router-dom';
-import VerticalNav from '../components/VerticalNav/VerticalNav';
-import ManageServices from '../components/ManageServices/ManageServices';
-import AddService from '../components/AddService/AddService';
-import Orders from '../components/Orders/Orders';
-import MakeAdmin from '../components/MakeAdmin/MakeAdmin';
+import AdminNav from '../AdminNav/AdminNav';
+import ManageServices from '../ManageServices/ManageServices';
+import AddService from '../AddService/AddService';
+import Orders from '../Orders/Orders';
+import MakeAdmin from '../MakeAdmin/MakeAdmin';
 
 const Admin = () => {
     const { action } = useParams();
@@ -30,7 +30,7 @@ const Admin = () => {
     }
     return (
         <div>
-            <VerticalNav />
+            <AdminNav />
             <div className="page-content">
                 {pageContent}
             </div>

@@ -17,15 +17,16 @@
 
 .link img {
     width: 26px;
-    margin-top: -5px;
+    margin-top: -3px;
 }
 
 .manage img {
     width: 18px !important;
 }
 
-.add img {
-    width: 21px !important;
+.add img,
+.user-nav img{
+    width: 24px !important;
 }
 
 .link span {
