@@ -1,0 +1,45 @@
+.bookings {
+    padding: 4%;
+    font-weight: 500;
+}
+
+.single-booking {
+    background-color: white;
+    width: 300px;
+    height: 205px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    float: left;
+}
+
+.single-booking img {
+    width: 50px;
+}
+
+.single-booking h5 {
+    margin: 5px 0px;
+    font-weight: bold;
+    font-size: 18px !important;
+}
+
+.single-booking p {
+    font-size: 14px;
+}
+
+.single-booking .status {
+    border-radius: 5px;
+    float: right;
+    background: #FFE3E3;
+    padding: 4px 6px;
+    color: #FF8E8E;
+}
+
+.green {
+    background-color: #C6FFE0;
+    color: #33AF6C;
+}
+
+.orange {
+    color: #FFCC6C;
+}
