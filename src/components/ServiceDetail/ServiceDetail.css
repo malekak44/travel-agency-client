@@ -4,6 +4,9 @@
     text-shadow: 0 0 1px;
     padding: 10px;
     transition: all 0.5s;
+    width: 320px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .service-card:hover {
