@@ -8,7 +8,7 @@ const Dashboard = () => {
         document.body.style.background = "#F3F5F9";
     }
 
-    var user = 0;
+    var user = 1;
     var content;
     if (user === 1) {
         content = <Admin />
